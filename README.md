@@ -14,3 +14,5 @@ To import it into mongodb, just run the mongo-import.sh script.
 If you want it to go into a different database, edit the mongo-import.sh script and change each occurance of "ClassicModels" to whatever you like.
 
 You can also open the CSV files in Excel or LibreOffice.
+
+I borrowed the bash script from here, which is a really nice implementation of the Northwind database in CSV and Mongo: https://github.com/tmcnab/northwind-mongo
