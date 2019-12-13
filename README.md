@@ -1,3 +1,5 @@
+NOTE: There's a problem in that the original data has nulls in it, and mongoimport doesn't do well with nulls when the source is CSV. So I'm going to completely redo this and generate BSON files instead. Stay tuned...
+
 # mongodb-classicmodels
 MongoDB / CSV version of the ClassicModels sample database.
 
